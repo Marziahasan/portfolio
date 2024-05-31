@@ -7,4 +7,17 @@
 /* header  */
 
 
-main 
+#about {
+    max-width: 600px;
+    margin:40px auto;
+    text-align: center;
+}
+#about > div.pic-div{
+    width: 30%;
+    margin: 20px auto;
+}
+#about > div.pic-div > img{
+    width: 100%;
+    border-radius: 50%;  
+    /* to make this image circular */
+}
