@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding: 0;
-    font-family: monospace, sans-serif;
+    font-family: 'monospace', sans-serif;
 }
 
 /* header  */
@@ -19,5 +19,80 @@
 #about > div.pic-div > img{
     width: 100%;
     border-radius: 50%;  
-    /* to make this image circular */
+    /* to make this image circular */ 
+}
+#my-name {
+    font-weight: bold;
+    font-size: clamp(25px, 1.5vw, 30px);
+}
+#designation{
+    font-size: clamp(20px, 1.1vw,25px);
+}
+#about > div:nth-child(4) > p:nth-child(1){
+    color:blueviolet;
+}
+#about > div:nth-child(3) > p:nth-child(1){
+    margin-bottom: 0;
+}
+#about > h2{
+    font-weight: bold;
+    font-size: clamp(28px, 1.8vw, 40px);
+}
+#about >h2>span{
+    color: blueviolet;
+
+}
+#about > div:nth-child(3) > p:nth-child(2){
+    color: gray;
+}
+#about > div:nth-child(5) > a:nth-child(1){
+    text-decoration: none;
+}
+#about .skills-email p{
+    font-size: clamp(18px, 0.9vw, 20px);
+}
+
+/* Projects */
+#projects {
+    margin: 40px auto;
+    width: 90%;
+}
+#projects h2{
+    text-align: center;
+    font-weight: bold;
+}
+#projects span {
+    color: blueviolet;
+}
+#projects > div.project-div {
+    display: flex;
+    width:90%;
+    margin: 20px auto;
+    gap: 5%;
+    border:1px solid gray;
+}
+#projects > div > div.project-img {
+    flex-basis: 72%
+}
+#projects > div > div.project-img img {
+    width: 100%;
+}
+#projects > div > div.project-info{
+    padding:1rem;
+}
+#projects .project-div .project-info h3{
+    font-weight: bold;
+} 
+#projects .project-info .project-btn button{
+    border: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+}
+#btn-web{
+    background-color: #6c757d;
+    color: white;
+}
+#btn-git{
+    background-color: black;
+    color: white;
 }
