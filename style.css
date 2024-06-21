@@ -96,3 +96,8 @@
     background-color: black;
     color: white;
 }
+@media only screen and (max-width: 650px){
+    #projects > div.project-div{
+        flex-direction: column;
+    }
+}
